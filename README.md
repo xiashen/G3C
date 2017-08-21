@@ -13,9 +13,9 @@ In order to use G3C for testing causality, you need genome-wide association stud
 * Python/LDSC: [Install](https://github.com/bulik/ldsc)
 * R: [Install](http://www.r-project.org)
 * G3C: Download and install the R package for
-    - Windows: [G3C.shen.se/G3C_1.1.zip](http://G3C.shen.se/G3C_1.1.zip)
-    - Mac OS: [G3C.shen.se/G3C_1.1.tgz](http://G3C.shen.se/G3C_1.1.tgz) 
-    - Linux: [G3C.shen.se/G3C_1.1.tar.gz](http://G3C.shen.se/G3C_1.1.tar.gz) 
+    - Windows: [G3C_1.1-2.zip](http://download.r-forge.r-project.org/bin/windows/contrib/latest/G3C_1.1-2.zip)
+    - Mac OS: [G3C_1.1-2.tgz](http://G3C.shen.se/G3C_1.1-2.tgz) 
+    - Linux: [G3C_1.1-2.tar.gz](http://download.r-forge.r-project.org/src/contrib/G3C_1.1-2.tar.gz) 
 
 ## How to use?
 
@@ -28,7 +28,7 @@ will be passed onto the next step.
 
 ### Step 2a: A single command to test the causal relationship
 
-For users unfamiliar with R or programming languages, we provide an easy-to-use single command line version of **G3C**. After installation of the required tools above, simply download the R wrapper file: **G3C.shen.se/G3C.R **
+For users unfamiliar with R or programming languages, we provide an easy-to-use single command line version of **G3C**. After installation of the required tools above, simply download the R wrapper file: [G3C.R](http://G3C.shen.se/G3C.R)
 
 Let's illustrate the usage using an example, where *education attainment (EA)* is regarded as exposure and *body mass index (BMI)* as outcome. Example files are ready for [download](https://www.dropbox.com/sh/to86shthsi5h2th/AAAvb4AitqYORu6baWtKl3_sa?dl=0). These are the files produced by **LDSC** using GWAS summary statistics.
 
