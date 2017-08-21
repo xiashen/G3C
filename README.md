@@ -1,8 +1,6 @@
 # G3C
 
-## What is G3C?
-
-G3C stands for **G**enetic **C**orrelation heterogeneity test for **C**ausality. It is a tool for establishing causal relationships between complex traits, for which GWAS have been conducted. It utilizes modeling and partition of estimated genetic correlations. The method is described in:
+G3C stands for **G**enetic **C**orrelation **C**ontrast test for **C**ausality. It is a tool for establishing causal relationships between complex traits, for which GWAS have been conducted. It utilizes modeling and partition of estimated genetic correlations. The method is described in:
 
 **Shen et al. (2017) Heterogeneity in genetic correlation detects causal factors for complex traits. _Submitted_.**
 
@@ -15,9 +13,9 @@ In order to use G3C for testing causality, you need genome-wide association stud
 * Python/LDSC: [Install](https://github.com/bulik/ldsc)
 * R: [Install](http://www.r-project.org)
 * G3C: Download and install the R package for
-    - Windows: **[G3C.shen.se/G3C_1.1.zip](http://G3C.shen.se/G3C_1.1.zip) **
-    - Mac OS: **[G3C.shen.se/G3C_1.1.tgz](http://G3C.shen.se/G3C_1.1.tgz) **
-    - Linux: **[G3C.shen.se/G3C_1.1.tar.gz](http://G3C.shen.se/G3C_1.1.tar.gz) **
+    - Windows: [G3C.shen.se/G3C_1.1.zip](http://G3C.shen.se/G3C_1.1.zip)
+    - Mac OS: [G3C.shen.se/G3C_1.1.tgz](http://G3C.shen.se/G3C_1.1.tgz) 
+    - Linux: [G3C.shen.se/G3C_1.1.tar.gz](http://G3C.shen.se/G3C_1.1.tar.gz) 
 
 ## How to use?
 
